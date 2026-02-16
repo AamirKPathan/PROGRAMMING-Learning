@@ -14,7 +14,7 @@
       (image-height I2))
 
 (if(< (image-width I2)
-      (image-height I1))
+      (image-height I2))
       (image-width I2)
       (image-height I2))
     
