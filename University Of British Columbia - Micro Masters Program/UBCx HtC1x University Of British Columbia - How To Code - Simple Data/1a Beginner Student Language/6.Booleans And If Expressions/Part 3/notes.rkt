@@ -22,3 +22,8 @@
       (image-height I2))
    (image-width I2)
    (image-height I2))
+
+(if(< (20)
+      (10))
+   (image-width I2)
+   (image-height I2))
