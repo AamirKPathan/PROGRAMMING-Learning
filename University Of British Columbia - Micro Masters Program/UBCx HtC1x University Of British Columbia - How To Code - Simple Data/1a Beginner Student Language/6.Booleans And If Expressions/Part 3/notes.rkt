@@ -10,5 +10,5 @@
 
 (if(< (image-width I1)
       (image-height I1))
-      "tall"
+      image-width I2)
       "wide")
