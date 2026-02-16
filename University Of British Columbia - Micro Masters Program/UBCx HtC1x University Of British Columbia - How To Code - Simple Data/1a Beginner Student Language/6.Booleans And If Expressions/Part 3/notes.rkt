@@ -31,3 +31,5 @@
 (if false
    (image-width I2)
    (image-height I2))
+
+(image-height I2)
