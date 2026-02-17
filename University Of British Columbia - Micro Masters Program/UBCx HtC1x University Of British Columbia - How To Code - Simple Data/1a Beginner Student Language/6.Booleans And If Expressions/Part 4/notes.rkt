@@ -8,4 +8,4 @@
 
 
 (and (> (image-height I1) (image-height I2))
-(< (image-width I1) (image-width I2))) ;An
+(< (image-width I1) (image-width I2))) ;And goes rule by rule, for example if the first expre
