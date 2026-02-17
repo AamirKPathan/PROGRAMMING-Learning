@@ -8,4 +8,4 @@
 
 
 (and (> (image-height I1) (image-height I2))
-(< (image-width I1) (image-width I2))) ;And goes rule by rule, for example if the first expre
+(< (image-width I1) (image-width I2))) ;And goes rule by rule, for example if the first expression is true it continues else it says false, once it reaches a
