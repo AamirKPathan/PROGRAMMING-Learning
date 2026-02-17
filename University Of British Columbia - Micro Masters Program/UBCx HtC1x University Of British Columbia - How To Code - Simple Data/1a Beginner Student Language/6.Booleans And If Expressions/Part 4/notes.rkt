@@ -6,5 +6,6 @@
 (> (image-height I1) (image-height I2))
 (< (image-width I1) (image-width I2))
 
-(> (image-height I1) (image-height I2))
-(< (image-width I1) (image-width I2))
+
+(and (> (image-height I1) (image-height I2))
+(< (image-width I1) (image-width I2))) ;An
