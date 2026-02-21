@@ -33,7 +33,7 @@ function MyComponent() {
             <option value = "">Select Payment Method</option>
             <option value = "visa">Visa</option>
             <option value = "mastercard">Master Card</option>
-            <option value = "american express">Apple Pay</option>
+            <option value = "american express">American Express</option>
             <option value = "paypal">PayPal</option>
             <option value = "cash">Cash On Delivery</option>
             <option value = "Gift Card">Gift Card</option>
