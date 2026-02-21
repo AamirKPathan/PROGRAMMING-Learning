@@ -18,6 +18,9 @@ function MyComponent() {
     function handleCommentChange(event){
         setComment(event.target.value);
     }
+    function handlePaymentChange(event){
+        setPayment(event.target.value);
+    }
 
     return(<div>
         <input value = {name} onChange = {handleNameChange}/>
