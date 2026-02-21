@@ -5,7 +5,7 @@ import React, {useState} from 'react';
 function MyComponent() {
  
     const [name, setName] = useState("Guest");
-    const [quantity, setQuantity] = useState(1);
+    const [quantity, setQuantity] = useState("Number");
     function handleNameChange(event){
         setName(event.target.value);
     }
