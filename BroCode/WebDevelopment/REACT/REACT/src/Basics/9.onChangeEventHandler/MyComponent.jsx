@@ -13,6 +13,9 @@ function MyComponent() {
     function handleQuantityChange(event){
         setQuantity(event.target.value);
     }
+    function handleCommentChange(event){
+        setComment(event.target.value);
+    }
 
     return(<div>
         <input value = {name} onChange = {handleNameChange}/>
