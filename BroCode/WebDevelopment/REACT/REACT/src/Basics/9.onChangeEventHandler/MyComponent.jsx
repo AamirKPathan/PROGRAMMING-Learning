@@ -4,13 +4,15 @@ import React, {useState} from 'react';
 
 function MyComponent() {
  
-    const [name, setName] = useState('');
+    const [name, setName] = useState("");
 
-
+    function handleNameChange(event){
+        setName(event.target.value);
+    }
 
     return(<div>
-        <input type="text" placeholder="Enter your name" onChange={(e) => setName(e.target.value)}/>
-        <p>Hello {name}</p>
+        <input value = {name} onChange = {handleNameChange}/
+        >
     </div>)
 }
 export default MyComponent
