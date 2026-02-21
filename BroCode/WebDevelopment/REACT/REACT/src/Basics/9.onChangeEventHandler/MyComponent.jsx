@@ -13,6 +13,6 @@ function MyComponent() {
     return(<div>
         <input value = {name} onChange = {handleNameChange}/>
         <p>Name: {name}</p>
-    </div>)
+    </div>);
 }
 export default MyComponent
