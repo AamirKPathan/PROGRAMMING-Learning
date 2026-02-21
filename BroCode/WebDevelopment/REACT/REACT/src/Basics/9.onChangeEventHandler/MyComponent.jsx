@@ -30,6 +30,7 @@ function MyComponent() {
         <textarea value = {comment} onChange = {handleCommentChange} placeholder = "Enter delivery instructions"/>
         <p>Comment: {comment}</p>
         <select value = {payment} onChange = {handlePaymentChange}>
+            <option value = "">Select Payment Method</option>
             <option value = "credit">Credit Card</option>
             <option value = "debit">Debit Card</option>
             <option value = "paypal">PayPal</option>
