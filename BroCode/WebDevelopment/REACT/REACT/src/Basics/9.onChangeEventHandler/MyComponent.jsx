@@ -34,7 +34,7 @@ function MyComponent() {
             <option value = "debit">Debit Card</option>
             <option value = "paypal">PayPal</option>
             <option value = "cash">Cash On Delivery</option>
-            
+            <option value = "crypto">Cryptocurrency</option>
         </select>
         <p>Payment Method: {payment}</p>
     </div>);
