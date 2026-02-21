@@ -6,6 +6,7 @@ function MyComponent() {
  
     const [name, setName] = useState("Guest");
     const [quantity, setQuantity] = useState(1);
+    const [comment, setComment] = useState("");
     function handleNameChange(event){
         setName(event.target.value);
     }
