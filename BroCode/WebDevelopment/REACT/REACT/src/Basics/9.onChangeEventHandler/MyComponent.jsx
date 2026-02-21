@@ -22,7 +22,7 @@ function MyComponent() {
         <p>Name: {name}</p>
         <input value = {quantity} onChange = {handleQuantityChange} type = "number"/>
         <p>Quantity: {quantity}</p>
-        <textarea value = {comment} onChange = {handleCommentChange} placeholder = "Enter your comment here..."/>
+        <textarea value = {comment} onChange = {handleCommentChange} placeholder = "Enter delivery instructions"/>
         <p>Comment: {comment}</p>
     </div>);
 }
