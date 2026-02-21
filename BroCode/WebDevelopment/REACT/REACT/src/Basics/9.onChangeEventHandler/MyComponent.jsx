@@ -29,6 +29,12 @@ function MyComponent() {
         <p>Quantity: {quantity}</p>
         <textarea value = {comment} onChange = {handleCommentChange} placeholder = "Enter delivery instructions"/>
         <p>Comment: {comment}</p>
+        <select value = {payment} onChange = {handlePaymentChange}>
+            <option value = "credit">Credit Card</option>
+            <option value = "debit">Debit Card</option>
+            <option value = "paypal">PayPal</option>
+        </select>
+        <p>Payment Method: {payment}</p>
     </div>);
 }
 export default MyComponent
