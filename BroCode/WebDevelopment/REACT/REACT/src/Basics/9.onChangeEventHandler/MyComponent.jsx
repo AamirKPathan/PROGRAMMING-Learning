@@ -1,26 +1,4 @@
+// onChange = event handler used primarily with form elements to capture user input and update the component's state accordingly. It allows you to respond to changes in input fields, such as text boxes, checkboxes, or dropdowns, by executing a function whenever the value of the input changes. This is essential for creating interactive and dynamic user interfaces in React applications.
+
 import React, {useState} from 'react';
 
-function MyComponent(){
-
-    const [name, setName] = useState();
-    const [age, setAge] = useState(0);
-
-    const updateName = () => {
-        setName("Aamir Khan Pathan");
-    }
-
-    const incrementAge = () => {
-        setAge(age+1);
-    }
-
-    return(
-        <div>
-            <p>Name: {name}</p>
-            <button onClick={updateName}>Set Name: </button>
-
-            <p>Age: {age}</p>
-            <button onClick={incrementAge}>Increment Age </button>
-        </div>
-    );
-}
-export default MyComponent
