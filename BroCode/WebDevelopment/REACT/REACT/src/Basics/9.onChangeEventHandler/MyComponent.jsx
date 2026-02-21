@@ -16,7 +16,7 @@ function MyComponent() {
     return(<div>
         <input value = {name} onChange = {handleNameChange}/>
         <p>Name: {name}</p>
-        <input value = {quantity} onChange = {handleQuantityChange}/>
+        <input value = {quantity} onChange = {handleQuantityChange} type="number"/>
         <p>Quantity: {quantity}</p>
     </div>);
 }
