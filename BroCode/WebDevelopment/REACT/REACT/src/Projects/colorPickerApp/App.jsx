@@ -1,10 +1,23 @@
+import { useState } from "react";
+import MyComponent from "./MyComponent";
 
+function App() {
+  const [color, setColor] = useState("#ff0000");
 
-import MyComponent from './MyComponent.jsx'
+  return (
+    <div className="app-container">
+      <h1>React Color Picker</h1>
 
-function App(){
-    return(<>
-        <MyComponent/>
-    </>);
+      <MyComponent color={color} setColor={setColor} />
+
+      <div
+        className="color-preview"
+        style={{ backgroundColor: color }}
+      >
+        {color}
+      </div>
+    </div>
+  );
 }
-export default App
+
+export default App;
