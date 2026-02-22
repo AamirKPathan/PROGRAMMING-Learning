@@ -20,9 +20,9 @@ function MyComponent() {
     return (<div>
         <p>Your favorite car is: {car.year} {car.make} {car.model}</p>
 
-        <input type = "number" placeholder='Year' onChange={(e) => setCar(prevCar => ({...prevCar, year: e.target.value}))} />
-        <input type = "text" placeholder='Make' onChange={(e) => setCar(prevCar => ({...prevCar, make: e.target.value}))} />
-        <input type = "text" placeholder='Model' onChange={(e) => setCar(prevCar => ({...prevCar, model: e.target.value}))} />
+        <input type="number" placeholder="Year" onChange={handleYearChange} />
+        <input type="text" placeholder="Make" onChange={handleMakeChange} />
+        <input type="text" placeholder="Model" onChange={handleModelChange} />
     </div>
     )
 }
