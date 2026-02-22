@@ -5,14 +5,11 @@ function App() {
   const [color, setColor] = useState("#a55cff");
 
   return (
-    <div className="app-wrapper">
+    <div className="app">
       <div className="card">
         <h1 className="title">Color Picker</h1>
 
-        <div
-          className="selected-color"
-          style={{ backgroundColor: color }}
-        >
+        <div className="preview" style={{ backgroundColor: color }}>
           <span>{color}</span>
         </div>
 
