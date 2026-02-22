@@ -6,15 +6,17 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>React Color Picker</h1>
+      <div className="card">
+        <h1 className="title">🎨 Color Picker</h1>
 
-      <MyComponent color={color} setColor={setColor} />
+        <MyComponent color={color} setColor={setColor} />
 
-      <div
-        className="color-preview"
-        style={{ backgroundColor: color }}
-      >
-        {color}
+        <div
+          className="color-preview"
+          style={{ backgroundColor: color }}
+        >
+          <span>{color}</span>
+        </div>
       </div>
     </div>
   );
