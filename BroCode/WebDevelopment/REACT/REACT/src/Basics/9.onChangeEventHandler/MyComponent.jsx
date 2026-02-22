@@ -44,6 +44,7 @@ function MyComponent() {
             <option value = "Gift Card">Gift Card</option>
         </select>
         <p>Payment Method: {payment}</p>
+        <label></label>
     </div>);
 }
 export default MyComponent
