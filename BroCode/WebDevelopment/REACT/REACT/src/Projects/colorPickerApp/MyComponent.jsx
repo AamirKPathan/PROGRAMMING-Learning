@@ -1,7 +1,11 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function MyComponent() {
   const [color, setColor] = useState("#7300ff");
+
+  useEffect(() => {
+    document.body.style.backgroundColor = color;
+  }, [color]);
 
   return (
     <div className="color-picker">
