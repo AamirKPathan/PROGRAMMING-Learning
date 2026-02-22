@@ -8,7 +8,7 @@ function MyComponent() {
     const [quantity, setQuantity] = useState(1);
     const [comment, setComment] = useState("");
     const [payment, setPayment] = useState("");
-    const [shipping, setPayment] = useState("");
+    const [shipping, setShipping] = useState("");
 
 
     function handleNameChange(event){
@@ -22,6 +22,9 @@ function MyComponent() {
     }
     function handlePaymentChange(event){
         setPayment(event.target.value);
+    }
+    function handleShippingChange(event){
+        setShipping(event.target.value);
     }
 
     return(<div>
