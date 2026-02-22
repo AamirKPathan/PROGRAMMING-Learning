@@ -1,4 +1,4 @@
-export const currentLesson = 11;
+export const currentLesson = 12;
 export const currentProject = "";
 
 export const lessonFolders = {
