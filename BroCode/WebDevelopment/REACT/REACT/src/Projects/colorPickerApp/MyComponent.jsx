@@ -1,7 +1,8 @@
 function MyComponent({ color, setColor }) {
   return (
-    <div className="picker-container">
-      <label className="label">Choose a color</label>
+    <div className="picker-section">
+      <label className="label">Select a Color:</label>
+
       <input
         type="color"
         className="color-input"
