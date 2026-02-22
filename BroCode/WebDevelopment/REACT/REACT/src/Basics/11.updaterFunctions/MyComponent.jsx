@@ -13,6 +13,8 @@ function MyComponent() {
 
     function decrement() {
         setCount(prevCount => prevCount - 1);
+        setCount(prevCount => prevCount - 1);
+        setCount(prevCount => prevCount - 1);
     };
 
     function reset() {
