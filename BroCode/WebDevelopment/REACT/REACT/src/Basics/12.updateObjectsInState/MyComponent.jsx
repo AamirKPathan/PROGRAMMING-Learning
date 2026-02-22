@@ -7,5 +7,8 @@ function MyComponent() {
         model: "Huracan"
     });
 
-    
+    return (<div>
+        <p></p>
+    </div>
+    )
 }
