@@ -9,8 +9,8 @@ function App() {
       <div className="container">
         <h1>Color Picker</h1>
 
-        <div className="color-display" style={{ backgroundColor: color }}>
-          <p>{color}</p>
+        <div className="color-bar" style={{ backgroundColor: color }}>
+          <span>{color}</span>
         </div>
 
         <MyComponent color={color} setColor={setColor} />
