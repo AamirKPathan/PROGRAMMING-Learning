@@ -46,6 +46,7 @@ function MyComponent() {
         <p>Payment Method: {payment}</p>
         <label>
             <input type = "radio" value = "standard" checked = {shipping === "standard"} onChange = {handleShippingChange}/>
+            Standard Shipping
         </label>
     </div>);
 }
