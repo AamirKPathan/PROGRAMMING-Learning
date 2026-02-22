@@ -5,6 +5,7 @@ body {
   background: #f2f2f2;
 }
 
+/* Center the square */
 .app {
   height: 100vh;
   display: flex;
@@ -12,21 +13,28 @@ body {
   align-items: center;
 }
 
+/* The actual square */
 .square {
-  width: 380px;
-  padding: 30px;
+  width: 350px;
+  height: 350px;
   background: white;
   border-radius: 14px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  padding: 25px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
+/* Heading on top */
 .main-heading {
-  margin-bottom: 25px;
-  font-size: 1.8rem;
+  margin: 0 0 20px 0;
+  font-size: 1.6rem;
   font-weight: 700;
 }
 
+/* Selected color section */
 .selected .label {
   font-size: 1rem;
   font-weight: 600;
@@ -39,16 +47,18 @@ body {
   margin-bottom: 25px;
 }
 
+/* Subheading */
 .sub-heading {
   font-size: 1.1rem;
   margin-bottom: 10px;
   font-weight: 600;
 }
 
+/* Color button */
 .color-btn {
-  width: 80px;
-  height: 50px;
+  width: 70px;
+  height: 45px;
   border: none;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 6px;
 }
