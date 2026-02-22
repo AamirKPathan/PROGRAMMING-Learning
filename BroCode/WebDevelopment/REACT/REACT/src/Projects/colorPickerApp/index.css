@@ -1,69 +1,74 @@
 /* Global */
 body {
-  font-family: "Inter", Arial, sans-serif;
-  background: linear-gradient(135deg, #ece9e6, #ffffff);
   margin: 0;
   padding: 0;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg, #dfe9f3, #ffffff);
 }
 
-/* Centering the app */
-.app-container {
+/* Center layout */
+.app-wrapper {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 /* Card */
 .card {
-  background: #fff;
-  padding: 30px 40px;
-  border-radius: 16px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  width: 380px;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
   text-align: center;
-  width: 350px;
-  transition: transform 0.2s ease;
-}
-
-.card:hover {
-  transform: translateY(-4px);
 }
 
 /* Title */
 .title {
-  margin-bottom: 20px;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-bottom: 25px;
   color: #333;
 }
 
-/* Picker */
-.picker-container {
-  margin: 20px 0;
+/* Selected color preview */
+.selected-color {
+  width: 100%;
+  height: 160px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.25s ease;
+}
+
+/* Picker section */
+.picker-section {
+  margin-top: 10px;
 }
 
 .label {
-  display: block;
-  margin-bottom: 10px;
+  font-size: 1rem;
   font-weight: 600;
   color: #444;
+  margin-bottom: 10px;
+  display: block;
 }
 
+/* Modern color input */
 .color-input {
-  width: 80px;
-  height: 50px;
+  width: 100%;
+  height: 60px;
+  border-radius: 12px;
   border: none;
   cursor: pointer;
-  background: none;
-}
-
-/* Preview box */
-.color-preview {
-  margin-top: 25px;
-  padding: 40px;
-  border-radius: 12px;
-  color: #fff;
-  font-size: 1.3rem;
-  font-weight: bold;
-  box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
-  transition: background-color 0.3s ease;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
