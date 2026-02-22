@@ -8,13 +8,19 @@ function MyComponent() {
     });
 
     function handleYearChange(event){
-
+        setCar(prevCar => {
+            return {...prevCar, year: event.target.value}
+        });
     }
     function handleMakeChange(event){
-        
+        setCar(prevCar => {
+            return {...prevCar, make: event.target.value}
+        });
     }
     function handleModelChange(event){
-        
+        setCar(prevCar => {
+            return {...prevCar, model: event.target.value}
+        });
     }
 
     return (<div>
