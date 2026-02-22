@@ -10,7 +10,12 @@ function MyComponent() {
     function handleYearChange(event){
 
     }
-    
+    function handleMakeChange(event){
+        
+    }
+    function handleModelChange(event){
+        
+    }
 
     return (<div>
         <p>Your favorite car is: {car.year} {car.make} {car.model}</p>
