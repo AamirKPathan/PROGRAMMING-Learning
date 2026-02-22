@@ -18,7 +18,7 @@ function MyComponent() {
     };
 
     function reset() {
-        setCount(0);
+        setCount(prevCount => prevCount = 0);
     };
 
     return (
