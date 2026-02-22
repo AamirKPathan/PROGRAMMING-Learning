@@ -6,11 +6,11 @@ function App() {
 
   return (
     <div className="app">
-      <div className="card">
-        <h1 className="title">Color Picker</h1>
+      <div className="container">
+        <h1>Color Picker</h1>
 
-        <div className="preview" style={{ backgroundColor: color }}>
-          <p className="preview-text">{color}</p>
+        <div className="color-display" style={{ backgroundColor: color }}>
+          <p>{color}</p>
         </div>
 
         <MyComponent color={color} setColor={setColor} />
