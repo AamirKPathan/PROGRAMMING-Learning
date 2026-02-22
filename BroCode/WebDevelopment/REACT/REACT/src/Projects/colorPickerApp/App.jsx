@@ -1,4 +1,5 @@
 import MyComponent from "./MyComponent";
+import "./index.css";
 
 function App() {
   return (
