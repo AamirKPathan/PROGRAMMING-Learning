@@ -15,40 +15,47 @@ body {
   min-height: 100vh;
 }
 
+/* Card container */
 .color-picker {
   background: white;
   padding: 25px;
   width: 300px;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
 
+/* Title */
 .color-picker h1 {
   margin-bottom: 20px;
 }
 
+/* Color preview box */
 .color-display {
-  height: 120px;
-  border-radius: 8px;
-  margin-bottom: 15px;
-  color: #333;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 20px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   font-weight: bold;
+  color: #333;
 }
 
 .color-display p {
   margin: 4px 0;
 }
 
+/* Label */
 label {
   display: block;
   margin-bottom: 8px;
   font-weight: bold;
 }
 
+/* Color input */
 input[type="color"] {
   width: 60px;
   height: 35px;
