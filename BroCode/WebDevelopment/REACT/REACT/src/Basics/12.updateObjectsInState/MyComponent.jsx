@@ -11,13 +11,13 @@ function MyComponent() {
         setCar(c => ({...c, year: event.target.value}));
     }
     function handleMakeChange(event){
-        setCar(prevCar => {
-            return {...prevCar, make: event.target.value}
+        setCar(c => {
+            return {...c, make: event.target.value}
         });
     }
     function handleModelChange(event){
-        setCar(prevCar => {
-            return {...prevCar, model: event.target.value}
+        setCar(c => {
+            return {...c, model: event.target.value}
         });
     }
 
