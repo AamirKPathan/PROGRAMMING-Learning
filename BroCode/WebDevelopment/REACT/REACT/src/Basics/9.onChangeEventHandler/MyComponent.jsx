@@ -48,6 +48,11 @@ function MyComponent() {
             <input type = "radio" value = "standard" checked = {shipping === "standard"} onChange = {handleShippingChange}/>
             Standard Shipping
         </label>
+        <label>
+            <input type = "radio" value = "express" checked = {shipping === "express"} onChange = {handleShippingChange}/>
+            Express Shipping
+        </label>
+        <p>Shipping Method: {shipping}</p>
     </div>);
 }
 export default MyComponent
