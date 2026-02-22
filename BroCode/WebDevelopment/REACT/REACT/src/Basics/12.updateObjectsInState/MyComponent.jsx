@@ -8,7 +8,7 @@ function MyComponent() {
     });
 
     return (<div>
-        <p></p>
+        <p>Your favorite car is: {car.year} {car.make} {car.model}</p>
     </div>
     )
 }
