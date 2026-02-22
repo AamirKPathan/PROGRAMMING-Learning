@@ -44,7 +44,9 @@ function MyComponent() {
             <option value = "Gift Card">Gift Card</option>
         </select>
         <p>Payment Method: {payment}</p>
-        <label></label>
+        <label>
+            <input type = "radio" value = "standard" checked = {shipping === "standard"} onChange = {handleShippingChange}/>
+        </label>
     </div>);
 }
 export default MyComponent
