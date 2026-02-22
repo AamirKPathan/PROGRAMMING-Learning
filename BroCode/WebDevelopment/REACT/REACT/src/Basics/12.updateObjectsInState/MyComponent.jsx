@@ -7,6 +7,11 @@ function MyComponent() {
         model: "Huracan"
     });
 
+    function handleYearChange(event){
+
+    }
+    
+
     return (<div>
         <p>Your favorite car is: {car.year} {car.make} {car.model}</p>
 
