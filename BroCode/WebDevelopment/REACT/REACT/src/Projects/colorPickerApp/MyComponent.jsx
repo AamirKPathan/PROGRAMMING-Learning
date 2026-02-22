@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function MyComponent() {
-  const [color, setColor] = useState("#a052ff");
+  const [color, setColor] = useState("#7300ff");
 
   return (
     <div className="color-picker">
