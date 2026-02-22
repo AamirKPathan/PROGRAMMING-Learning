@@ -34,13 +34,6 @@ function MyComponent() {
         <p>Quantity: {quantity}</p>
         <textarea value = {comment} onChange = {handleCommentChange} placeholder = "Enter delivery instructions"/>
         <p>Comment: {comment}</p>
-        <select value = {shipping} onChange = {handleShippingChange}>
-            <option value = "">Select Shipping Method</option>
-            <option value = "standard">Standard</option>
-            <option value = "express">Express</option>
-            <option value = "overnight">Overnight</option>
-        </select>
-        <p>Shipping Method: {shipping}</p>
         <select value = {payment} onChange = {handlePaymentChange}>
             <option value = "">Select Payment Method</option>
             <option value = "visa">Visa</option>
