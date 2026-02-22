@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.picker-container {
+  margin: 20px 0;
+}
+
+.color-preview {
+  margin-top: 20px;
+  padding: 40px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
