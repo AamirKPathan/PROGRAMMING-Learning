@@ -10,7 +10,7 @@ function App() {
         <h1 className="title">Color Picker</h1>
 
         <div className="preview" style={{ backgroundColor: color }}>
-          <span>{color}</span>
+          <p className="preview-text">{color}</p>
         </div>
 
         <MyComponent color={color} setColor={setColor} />
