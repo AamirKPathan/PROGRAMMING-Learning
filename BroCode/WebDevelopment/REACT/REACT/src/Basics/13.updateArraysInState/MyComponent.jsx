@@ -18,7 +18,9 @@ function MyComponent() {
                 <li key={index}>{food}</li>
             ))}
         </ul>
-        <input type="text" placeholder='Enter ' />
+        <input type="text" placeholder='Enter a food item' />
+        <button onClick={handleAddFood}>Add Food</button>
+        <button onClick={handleRemoveFood}>Remove Food</button>
     </>);
 }
 
