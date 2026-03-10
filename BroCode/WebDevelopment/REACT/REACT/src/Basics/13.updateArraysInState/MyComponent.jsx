@@ -11,8 +11,8 @@ function MyComponent() {
         setFoods(f => [...f, newFood]);
     }
 
-    function handleRemoveFood() {
-
+    function handleRemoveFood(index) {
+        setFoods(f => f.filter((_, i) => i !== 
     }
 
     return(<>
