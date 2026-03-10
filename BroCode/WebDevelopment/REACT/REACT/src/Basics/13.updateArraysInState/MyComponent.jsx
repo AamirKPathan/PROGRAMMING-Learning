@@ -18,6 +18,7 @@ function MyComponent() {
                 <li key={index}>{food}</li>
             ))}
         </ul>
+        <input type="text" placeholder='Enter ' />
     </>);
 }
 
