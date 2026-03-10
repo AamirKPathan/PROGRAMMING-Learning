@@ -6,6 +6,8 @@ function MyComponent() {
     function handleAddFood() {
 
         const newFood = document.getElementById('foodInput').value = "";
+
+        setFoods([newFoo])
     }
 
     function handleRemoveFood() {
