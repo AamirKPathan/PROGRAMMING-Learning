@@ -16,7 +16,7 @@ function MyComponent() {
         setCars(prevCars => [...prevCars, newCar]);
     }
     function HandleRemoveCar(index) {
-
+        setCars(prevCars => prevCars.filter((car, i) => i !== index));
     }
     function HandleYearChange(event) {
         setCarYear(event.target.value);
