@@ -20,7 +20,7 @@ function MyComponent() {
                     <li key={index}>{food}</li>
                 ))}
             </ul>
-            <input type="text" placeholder="Enter food" id="foodInput" />
+            <input type="text"id="foodInput" placeholder="Enter food"/>
             <button onClick={handleAddFood}>Add Food</button>
             <button onClick={handleRemoveFood}>Remove Food</button>
         </div>
