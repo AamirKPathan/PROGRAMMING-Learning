@@ -15,7 +15,9 @@ function ToDoList() {
             setNewTask("");
         }
     }
-    func
+    function deleteTask(index) {
+        setTasks(t => t.filter((_, i) => i !== index));
+    }\
 
     return(<></>);
 }
