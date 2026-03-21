@@ -7,7 +7,7 @@ function ToDoList() {
 
     // Declare Functions
     function handleInputChange(event) {
-
+        setNewTask(event.target.value);
     }
     function addTask() {
 
