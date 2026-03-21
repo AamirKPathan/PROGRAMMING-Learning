@@ -9,7 +9,13 @@ function ToDoList() {
     function handleInputChange(event) {
         setNewTask(event.target.value);
     }
-    
+    function addTask() {
+        if (newTask.trim() !== "") {
+            setTasks(t => [...t, newTask]);
+            setNewTask("");
+        }
+    }
+    func
 
     return(<></>);
 }
