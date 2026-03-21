@@ -14,13 +14,13 @@ function MyComponent() {
 
     }
     function HandleYearChange(event) {
-
+        setCarYear(event.target.value);
     }
     function HandleMakeChange(event) {
-
+        setCarMake(event.target.value);
     }
     function HandleModelChange(event) {
-
+        setCarModel(event.target.value);
     }
     return(<div>
         <h2>List Of Car Objects</h2>
