@@ -27,7 +27,12 @@ function ToDoList() {
     <div>
         <h1>To Do List</h1>
         <div>
-            
+            <input
+                type="text"
+                placeholder="Enter A Task"
+                value={newTask}
+                onChange={handleInputChange}
+            />
         </div>
     </div>
     );
