@@ -5,7 +5,7 @@ function MyComponent() {
     const [foods, setFoods] = useState(["Apple", "Banana", "Cherry"]);
 
     function handleAddFood() {
-
+        
     }
 
     function handleRemoveFood() {
@@ -20,7 +20,7 @@ function MyComponent() {
                     <li key={index}>{food}</li>
                 ))}
             </ul>
-            <input type="text"id="foodInput" placeholder="Enter food"/>
+            <input type="text" id="foodInput" placeholder="Enter food" />
             <button onClick={handleAddFood}>Add Food</button>
             <button onClick={handleRemoveFood}>Remove Food</button>
         </div>
