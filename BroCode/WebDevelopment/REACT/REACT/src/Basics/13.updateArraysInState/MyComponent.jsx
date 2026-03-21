@@ -19,7 +19,7 @@ function MyComponent() {
             <h2>Foods</h2>
             <ul>
                 {foods.map((food, index) => (
-                    <li key={index} onClick={handleRemoveFoo}>{food}</li>
+                    <li key={index} onClick={() => handleRemoveFood(index)}>{food}</li>
                 ))}
             </ul>
             <input type="text" id="foodInput" placeholder="Enter food" />
