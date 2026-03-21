@@ -10,7 +10,7 @@ function MyComponent() {
         setFoods([...foods, newFood]);
     }
 
-    function handleRemoveFood() {
+    function handleRemoveFood(index) {
 
     }
 
