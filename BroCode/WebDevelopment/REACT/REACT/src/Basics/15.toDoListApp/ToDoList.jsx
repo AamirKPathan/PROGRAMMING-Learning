@@ -33,7 +33,7 @@ function ToDoList() {
                 value={newTask}
                 onChange={handleInputChange}
             />
-            <button className="add-bur"></button>
+            <button className="add-button" onClick={addTask}>Add Task</button>
         </div>
     </div>);
 }
