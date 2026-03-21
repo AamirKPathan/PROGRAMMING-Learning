@@ -20,7 +20,7 @@ function MyComponent() {
         setCarModel("");
     }
     function HandleRemoveCar(index) {
-        setCars(c => c.filter((_, i) => i !== index));
+        setCars(c => c.filter((element, i) => i !== index));
     }
     function HandleYearChange(event) {
         setCarYear(event.target.value);
