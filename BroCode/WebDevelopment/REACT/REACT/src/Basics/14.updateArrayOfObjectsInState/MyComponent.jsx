@@ -7,8 +7,8 @@ function MyComponent() {
     const [carModel, setCarModel] = useState("");
 
     // Declare Functions
-    function addCar() {}
-    
+    function HandleAddCar() {}
+    function HandleRemoveCar(index) {}
 }
 
 export default MyComponent;
