@@ -11,7 +11,9 @@ function MyComponent() {
     }
 
     function handleRemoveFood() {
-
+        const foodToRemove = document.getElementById("foodInput").value;
+        document.getElementById("foodInput").value = "";
+        setFoods(foods.filter((food) => food !== foodToRemove));
     }
 
     return (
@@ -25,7 +27,7 @@ function MyComponent() {
             <input type="text" id="foodInput" placeholder="Enter food" />
             <button onClick={handleAddFood}>Add Food</button>
             <input type="text" id="foodInput" placeholder="Remove food" />
-            <button onClick={handleAddFood}>Add Food</button>
+            <button onClick={handleRemoveFood}>Remove Food</button>
         </div>
     );
 }
