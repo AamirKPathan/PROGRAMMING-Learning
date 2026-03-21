@@ -8,7 +8,12 @@ function MyComponent() {
 
     // Declare Functions
     function HandleAddCar() {
-
+        const newCar = {
+            year: carYear,
+            make: carMake,
+            model: carModel
+        }
+        setCars(prevCars => [...prevCars, newCar]);
     }
     function HandleRemoveCar(index) {
 
