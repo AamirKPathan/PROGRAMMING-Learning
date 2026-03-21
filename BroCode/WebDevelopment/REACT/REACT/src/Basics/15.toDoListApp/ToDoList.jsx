@@ -34,8 +34,7 @@ function ToDoList() {
                 onChange={handleInputChange}
             />
         </div>
-    </div>
-    );
+    </div>);
 }
 
 export default ToDoList;
