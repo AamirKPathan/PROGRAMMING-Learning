@@ -1,56 +1,160 @@
-.to-do-list {
-  width: 300px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f4f4f4;
-  border-radius: 5px;
+* {
+  box-sizing: border-box;
 }
+
+body {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.to-do-list {
+  width: 100%;
+  max-width: 450px;
+  padding: 30px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .to-do-list h2 {
   text-align: center;
-  margin-bottom: 20px;
+  margin: 0 0 30px 0;
+  color: #333;
+  font-size: 28px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
+
 .to-do-list input {
   width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
+  padding: 14px;
+  margin-bottom: 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  font-family: inherit;
 }
-.to-do-list button {
+
+.to-do-list input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.to-do-list input::placeholder {
+  color: #999;
+}
+
+.to-do-list > button {
   width: 100%;
-  padding: 10px;
-  background-color: #28a745;
+  padding: 14px;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   border: none;
-  border-radius: 3px;
+  border-radius: 10px;
   cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
 }
-.to-do-list button:hover {
-  background-color: #218838;
+
+.to-do-list > button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
 }
+
+.to-do-list > button:active {
+  transform: translateY(0);
+}
+
 .to-do-list ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
+
 .to-do-list li {
-  padding: 10px;
-  background-color: white;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  margin-bottom: 5px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border: 2px solid #e9ecef;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+  animation: fadeIn 0.3s ease-out;
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.to-do-list li:hover {
+  background-color: white;
+  border-color: #667eea;
+  box-shadow: 0 3px 10px rgba(102, 126, 234, 0.15);
+}
+
 .to-do-list li.completed {
   text-decoration: line-through;
-  color: #888;
+  color: #999;
+  background-color: #f0f0f0;
+  border-color: #ddd;
 }
+
 .to-do-list li button {
-  float: right;
   background-color: #dc3545;
   color: white;
   border: none;
-  border-radius: 3px;
+  border-radius: 6px;
   cursor: pointer;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-left: 10px;
 }
+
 .to-do-list li button:hover {
   background-color: #c82333;
+  transform: scale(1.05);
+  box-shadow: 0 3px 10px rgba(220, 53, 69, 0.3);
+}
+
+.to-do-list li button:active {
+  transform: scale(0.98);
 }
