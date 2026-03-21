@@ -30,7 +30,9 @@ function MyComponent() {
     return(<div>
         <h2>List Of Car Objects</h2>
         <ul>
-            {cars.map}
+            {cars.map((car, index) => (
+                <li key={index}>{car.year} {car.make} {car.model} <button onClick={() => HandleRemoveCar(index)}>Remove</button></li>
+            ))}
         </ul>
         <input type="number" placeholder='Year' value={carYear} onChange={HandleYearChange}/>
         <br/>
