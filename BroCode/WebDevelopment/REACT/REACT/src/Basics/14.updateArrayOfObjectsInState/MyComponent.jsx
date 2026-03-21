@@ -13,7 +13,7 @@ function MyComponent() {
             make: carMake,
             model: carModel
         };
-        setCars(cars => [...cars, newCar]);
+        setCars(c => [...c, newCar]);
     }
     function HandleRemoveCar(index) {
         
@@ -30,7 +30,7 @@ function MyComponent() {
     return(<div>
         <h2>List Of Car Objects</h2>
         <ul>
-
+        
         </ul>
         <input type="number" placeholder='Year' value={carYear} onChange={HandleYearChange}/>
         <br/>
