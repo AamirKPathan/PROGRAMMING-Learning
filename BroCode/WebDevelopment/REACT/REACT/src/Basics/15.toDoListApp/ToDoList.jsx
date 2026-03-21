@@ -35,6 +35,9 @@ function ToDoList() {
             />
             <button className="add-button" onClick={addTask}>Add Task</button>
         </div>
+        <ol>
+            
+        </ol>
     </div>);
 }
 
