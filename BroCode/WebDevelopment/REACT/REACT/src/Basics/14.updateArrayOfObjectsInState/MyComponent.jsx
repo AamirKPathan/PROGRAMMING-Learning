@@ -22,6 +22,9 @@ function MyComponent() {
     function HandleModelChange(event) {
 
     }
+    return(<div>
+        
+    </div>)
 }
 
 export default MyComponent;
