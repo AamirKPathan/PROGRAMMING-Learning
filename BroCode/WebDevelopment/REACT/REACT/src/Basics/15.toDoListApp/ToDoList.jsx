@@ -36,7 +36,14 @@ function ToDoList() {
             <button className="add-button" onClick={addTask}>Add Task</button>
         </div>
         <ol>
-            
+            {tasks.map((task, index) => (
+                <li key={index}>
+                    {task}
+                    <button className="move-up-button" onClick={() => moveTaskUp(index)}>Move Up</button>
+                    <button className="move-down-button" onClick={() => moveTaskDown(index)}>Move Down</button>
+                    <button className="delete-button" onClick={() => deleteTask(index)}>Delete</button>
+                </li>
+            ))}
         </ol>
     </div>);
 }
