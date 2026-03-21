@@ -12,7 +12,7 @@ function MyComponent() {
             year: carYear,
             make: carMake,
             model: carModel
-        }
+        };
         setCars(prevCars => [...prevCars, newCar]);
     }
     function HandleRemoveCar(index) {
