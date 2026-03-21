@@ -28,11 +28,11 @@ function MyComponent() {
 
         </ul>
         <input type="number" placeholder='Year' value={carYear} onChange={HandleYearChange}/>
-
+        </br>
         <input type="text" placeholder='Make' value={carMake} onChange={HandleMakeChange}/>
 
         <input type="text" placeholder='Model' value={carModel} onChange={HandleModelChange}/>
-        
+
         <button onClick={HandleAddCar}>Add Car</button>
     </div>)
 }
