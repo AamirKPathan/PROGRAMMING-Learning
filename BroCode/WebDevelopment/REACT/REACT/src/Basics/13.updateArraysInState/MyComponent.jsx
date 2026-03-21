@@ -12,7 +12,18 @@ function MyComponent() {
 
     }
 
-    return (<></>);
+    return (
+        <div>
+            <h2>Foods</h2>
+            <ul>
+                {foods.map((food, index) => (
+                    <li key={index}>{food}</li>
+                ))}
+            </ul>
+            <button onClick={handleAddFood}>Add Food</button>
+            <button onClick={handleRemoveFood}>Remove Food</button>
+        </div>
+    );
 }
 
 export default MyComponent;
