@@ -32,7 +32,7 @@ function MyComponent() {
         <input type="text" placeholder='Make' value={carMake} onChange={HandleMakeChange}/>
         <br/>
         <input type="text" placeholder='Model' value={carModel} onChange={HandleModelChange}/>
-        <b</br>
+        <br/>
         <button onClick={HandleAddCar}>Add Car</button>
     </div>)
 }
