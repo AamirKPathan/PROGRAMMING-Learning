@@ -14,6 +14,10 @@ function MyComponent() {
             model: carModel
         };
         setCars(c => [...c, newCar]);
+        
+        setCarYear(new Date().getFullYear());
+        setCarMake("");
+        setCarModel("");
     }
     function HandleRemoveCar(index) {
         setCars(c => c.filter((car, i) => i !== index));
