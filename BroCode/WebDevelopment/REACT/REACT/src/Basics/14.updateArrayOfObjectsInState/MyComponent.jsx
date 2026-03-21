@@ -35,7 +35,7 @@ function MyComponent() {
                     {car.year} 
                     {car.make} 
                     {car.model} 
-                    <button onClick={() => HandleRemoveCar(index)}>Remove</button></li>
+                </li>
             ))}
         </ul>
         <input type="number" placeholder='Year' value={carYear} onChange={HandleYearChange}/>
