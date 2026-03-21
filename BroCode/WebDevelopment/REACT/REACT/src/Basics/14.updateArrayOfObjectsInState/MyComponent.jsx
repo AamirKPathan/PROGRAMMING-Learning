@@ -13,7 +13,7 @@ function MyComponent() {
             make: carMake,
             model: carModel
         };
-        setCars(prevCars => [...prevCars, newCar]);
+        setCars(cars => [...cars, newCar]);
     }
     function HandleRemoveCar(index) {
         setCars(prevCars => prevCars.filter((car, i) => i !== index));
