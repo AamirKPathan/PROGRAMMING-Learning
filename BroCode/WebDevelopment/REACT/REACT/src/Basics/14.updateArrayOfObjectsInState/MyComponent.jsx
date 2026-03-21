@@ -23,8 +23,12 @@ function MyComponent() {
 
     }
     return(<div>
-        <h2>List Of Ca</h2>
+        <h2>List Of Car Objects</h2>
+        <ul>
+
+        </ul>
+        <input type="number" placeholder='Year' value={carYear} onChange={HandleYearChange}/>
     </div>)
 }
 
-export default MyCompone
+export default MyComponent;
