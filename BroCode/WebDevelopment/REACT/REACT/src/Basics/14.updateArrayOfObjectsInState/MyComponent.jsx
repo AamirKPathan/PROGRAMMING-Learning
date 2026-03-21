@@ -5,6 +5,10 @@ function MyComponent() {
     const [carYear, setCarYear] = useState(new Date().getFullYear());
     const [carMake, setCarMake] = useState("");
     const [carModel, setCarModel] = useState("");
+
+    // Declare Functions
+    function addCar() {}
+    
 }
 
 export default MyComponent;
