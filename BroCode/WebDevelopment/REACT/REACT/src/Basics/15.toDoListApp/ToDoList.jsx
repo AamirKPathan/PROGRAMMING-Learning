@@ -18,7 +18,11 @@ function ToDoList() {
     function deleteTask(index) {
         setTasks(t => t.filter((_, i) => i !== index));
     }
-    function moveTaskUp(index) {}
+    function moveTaskUp(index) {
+
+    }
+    function mov
+
 
     return(<></>);
 }
