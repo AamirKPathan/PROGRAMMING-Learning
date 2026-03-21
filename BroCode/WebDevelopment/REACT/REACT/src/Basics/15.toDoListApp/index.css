@@ -9,3 +9,48 @@
   text-align: center;
   margin-bottom: 20px;
 }
+.to-do-list input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.to-do-list button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.to-do-list button:hover {
+  background-color: #218838;
+}
+.to-do-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+.to-do-list li {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+.to-do-list li.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+.to-do-list li button {
+  float: right;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.to-do-list li button:hover {
+  background-color: #c82333;
+}
