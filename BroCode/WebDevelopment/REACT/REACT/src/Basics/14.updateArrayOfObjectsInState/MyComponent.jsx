@@ -35,7 +35,7 @@ function MyComponent() {
         <h2>List Of Car Objects</h2>
         <ul>
             {cars.map((car, index) => (
-                <li key={index}>
+                <li key={index} onClick={() => HandleRemoveCar(index)}>
                     {`${car.year} 
                     ${car.make} 
                     ${car.model}`}
