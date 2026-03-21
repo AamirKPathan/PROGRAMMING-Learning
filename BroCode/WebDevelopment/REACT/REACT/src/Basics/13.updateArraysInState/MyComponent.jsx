@@ -4,7 +4,9 @@ function MyComponent() {
 
     const [foods, setFoods] = useState(["Apple", "Banana", "Cherry"]);
 
-    
+    function handleAddFood() {
+
+    }
 
     return (<></>);
 }
