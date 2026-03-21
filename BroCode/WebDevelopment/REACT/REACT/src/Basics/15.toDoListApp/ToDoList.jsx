@@ -7,7 +7,7 @@ function ToDoList() {
 
     // Declare Functions
     function handleInputChange(event) {
-        setNewTask(event.target.value);
+
     }
     function addTask() {
 
@@ -23,7 +23,11 @@ function ToDoList() {
     }
 
 
-    return(<></>);
+    return(
+    <div>
+        
+    </div>
+    );
 }
 
 export default ToDoList;
