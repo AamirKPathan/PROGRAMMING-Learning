@@ -32,8 +32,7 @@ function MyComponent() {
         <ul>
             {cars.map((car, index) => (
                 <li key={index}>
-                    {car.year}
-     
+                    {car.year} 
                     {car.make} 
                     {car.model} 
                 </li>
