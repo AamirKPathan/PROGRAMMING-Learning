@@ -158,3 +158,35 @@ body {
 .to-do-list li button:active {
   transform: scale(0.98);
 }
+
+/* Button Variants */
+.add-button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  font-weight: 600;
+}
+
+.add-button:hover {
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4) !important;
+}
+
+.up-button,
+.down-button {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%) !important;
+  font-weight: 600;
+  padding: 6px 10px !important;
+}
+
+.up-button:hover,
+.down-button:hover {
+  box-shadow: 0 3px 10px rgba(79, 172, 254, 0.4) !important;
+}
+
+.delete-button {
+  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%) !important;
+  color: #333 !important;
+  font-weight: 600;
+}
+
+.delete-button:hover {
+  box-shadow: 0 3px 10px rgba(250, 112, 154, 0.4) !important;
+}
