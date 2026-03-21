@@ -8,6 +8,10 @@ function MyComponent() {
 
     }
 
+    function handleRemoveFood() {
+
+    }
+
     return (<></>);
 }
 
