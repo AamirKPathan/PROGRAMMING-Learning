@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 
 function MyComponent() {
 
-    const [foods, setFoods] = useState(["Appl"])
+    const [foods, setFoods] = useState(["Apple", "Banana", "Cherry"]);
+
+    
 
     return (<></>);
 }
