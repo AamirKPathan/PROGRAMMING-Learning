@@ -33,6 +33,7 @@ function ToDoList() {
                 value={newTask}
                 onChange={handleInputChange}
             />
+            <button className="add-bur"></button>
         </div>
     </div>);
 }
