@@ -5,7 +5,7 @@ function MyComponent() {
     const [foods, setFoods] = useState(["Apple", "Banana", "Cherry"]);
 
     function handleAddFood() {
-        const newFood = document.getElementByID
+        const newFood = document.getElementById("foodInput").value;
     }
 
     function handleRemoveFood() {
