@@ -16,12 +16,14 @@ function ToDoList() {
         }
     }
     function deleteTask(index) {
-        setTasks(t => t.filter((_, i) => i !== index));
+        setTasks(t => t.filter((_, i) => i !== 
     }
     function moveTaskUp(index) {
 
     }
-    function mov
+    function moveTaskDown(index) {
+    
+    }
 
 
     return(<></>);
