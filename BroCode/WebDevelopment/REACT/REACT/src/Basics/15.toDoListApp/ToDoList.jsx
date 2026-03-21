@@ -19,10 +19,22 @@ function ToDoList() {
         setTasks(t => t.filter((_, i) => i !== index));
     }
     function moveTaskUp(index) {
-        
+        if (index > 0) {
+            setTasks(t => {
+                const newTasks = [...t];
+                [newTasks[index - 1], newTasks[index]] = [newTasks[index], newTasks[index - 1]];
+                return newTasks;
+            });
+        }
     }
     function moveTaskDown(index) {
-    
+        if (index < tasks.length - 1) {
+            setTasks(t => {
+                const newTasks = [...t];
+                [newTasks[index], newTasks[index + 1]] = [newTasks[index + 1], newTasks[index]];
+                return newTasks;
+            });
+        }
     }
 
 
