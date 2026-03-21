@@ -23,8 +23,8 @@ function MyComponent() {
 
     }
     return(<div>
-        
+        <h2>List Of Ca</h2>
     </div>)
 }
 
-export default MyComponent;
+export default MyCompone
