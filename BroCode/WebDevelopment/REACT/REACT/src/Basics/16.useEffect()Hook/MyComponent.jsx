@@ -9,7 +9,8 @@
 //USES
 
 // 1. Event Listeners
-// 2. DOM manipu
+// 2. DOM manipulation
+// 3. Subscriptions
 import React, { use, useState } from 'react';
 
 function MyComponent() {
