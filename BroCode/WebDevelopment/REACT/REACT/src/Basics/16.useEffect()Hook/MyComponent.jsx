@@ -8,8 +8,8 @@
 
 //USES
 
-// 1. Fetching Data
-// 2. Subscriptions
+// 1. Event Listeners
+// 2. DOM manipu
 import React, { use, useState } from 'react';
 
 function MyComponent() {
