@@ -13,10 +13,11 @@
 // 3. Subscriptions
 // 4. Fetching Data from an API
 // 5. Cleanup (e.g., removing event listeners, canceling subscriptions, etc.)
-import React, { use, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function MyComponent() {
     
+    const [count, setCount] = useState(0);
 
     return(<></>)
 }
