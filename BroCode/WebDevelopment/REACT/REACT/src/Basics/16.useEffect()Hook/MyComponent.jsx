@@ -11,6 +11,8 @@
 // 1. Event Listeners
 // 2. DOM manipulation
 // 3. Subscriptions
+// 4. Fetching Data from an API
+// 5. Cleanup (e.g., removing event listeners, canceling subscriptions, etc.)
 import React, { use, useState } from 'react';
 
 function MyComponent() {
