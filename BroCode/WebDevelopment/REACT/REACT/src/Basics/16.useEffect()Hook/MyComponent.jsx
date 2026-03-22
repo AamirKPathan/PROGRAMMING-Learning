@@ -18,9 +18,11 @@ import React, { useState, useEffect } from 'react';
 function MyComponent() {
     
     const [count, setCount] = useState(0);
+    function addCount(){
+        setCount(c => c + 1);
+    }
 
 
-    
     return(<>
         <h1>Count: {count}</h1>
         <button onClick={addCount}>Add</button>
