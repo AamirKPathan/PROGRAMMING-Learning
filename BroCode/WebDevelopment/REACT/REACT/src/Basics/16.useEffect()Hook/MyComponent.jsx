@@ -19,8 +19,9 @@ function MyComponent() {
     
     const [count, setCount] = useState(0);
 
-    return(<><p
-    
+    return(<>
+        <h1>Count: {count}</h1>
+        
     </>)
 }
 
