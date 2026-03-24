@@ -18,11 +18,11 @@ import React, { useState, useEffect } from 'react';
 function MyComponent() {
     
     const [count, setCount] = useState(0);
+    const [color, setColor] = useState("green");
 
     useEffect(() => {
         document.title = `Count: ${count} ${color}`;
     }, [count, color]); // Do the document title change only when count or color changes
-    const [color, setColor] = useState("green");
 
     function addCount(){
         setCount(c => c + 1);
