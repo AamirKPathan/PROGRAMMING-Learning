@@ -37,7 +37,7 @@ function MyComponent() {
         <button onClick={addCount}>Add</button>
         <button onClick={subtractCount}>Subtract</button>
         <br/>
-        
+        <button onClick={changeColour}>Change Color</button>
     </>)
 }
 
