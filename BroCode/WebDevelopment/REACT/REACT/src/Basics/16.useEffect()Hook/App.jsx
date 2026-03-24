@@ -1,10 +1,10 @@
-import MyComponent from "./DigitalClock";
+import DigitalClock from "./DigitalClock";
 import "./index.css";
 
 function App() {
   return (
     <div className="app">
-      <MyComponent />
+      <DigitalClock />
     </div>
   );
 }
