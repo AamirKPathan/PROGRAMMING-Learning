@@ -4,14 +4,16 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
-
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .clock-container {
     backdrop-filter: blur(5px);
     width: 100vw;
+    padding: 10px 0;
 }
 
 .clock {
