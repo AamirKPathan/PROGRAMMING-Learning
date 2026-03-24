@@ -1,4 +1,4 @@
-import ToDoList from "./ToDoList";
+import ToDoList from "./DigitalClock";
 import "./index.css";
 
 function App() {
