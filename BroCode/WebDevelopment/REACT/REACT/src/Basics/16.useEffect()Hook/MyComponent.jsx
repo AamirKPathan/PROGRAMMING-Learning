@@ -27,6 +27,9 @@ function MyComponent() {
         setCount(c => c + 1);
     }
 
+    function subtractCount(){
+        setCount(c => c - 1);
+    }
 
     return(<>
         <h1>Count: {count}</h1>
