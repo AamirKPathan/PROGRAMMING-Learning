@@ -2,6 +2,10 @@ import React, { use, useState } from 'react';
 
 function DigitalClock() {
 
+    const [time, setTime] = useState(new Date());
+
+    useEffect();
+
     return (
         <div className="clock-container">
             <div className="clock">
