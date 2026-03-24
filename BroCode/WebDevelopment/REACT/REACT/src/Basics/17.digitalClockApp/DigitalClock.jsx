@@ -16,7 +16,7 @@ function DigitalClock() {
     return (
         <div className="clock-container">
             <div className="clock">
-                <span>`${time.getHours().toString().padStart(2, '0')}:${time.getMinutes().toString().padStart(2, '0')}:${time.getSeconds().toString().padStart(2, '0')}`</span>
+                <span>00:00:00</span>
             </div>
         </div>
     );
