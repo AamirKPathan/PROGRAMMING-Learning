@@ -1,4 +1,4 @@
-import React, { use, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function DigitalClock() {
 
@@ -24,7 +24,7 @@ function DigitalClock() {
     }
 
     function padZero(number){
-        return (number >10 ? "0" : "") + number;
+        return (number < 10 ? "0" : "") + number;
     }
 
     return (
