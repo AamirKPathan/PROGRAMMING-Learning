@@ -13,6 +13,10 @@ function DigitalClock() {
     }, 
     []);
 
+    function formatTime(){
+        
+    }
+
     return (
         <div className="clock-container">
             <div className="clock">
