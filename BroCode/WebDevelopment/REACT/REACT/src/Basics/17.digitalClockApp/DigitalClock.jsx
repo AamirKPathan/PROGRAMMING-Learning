@@ -6,6 +6,10 @@ function DigitalClock() {
 
     useEffect(() => {
         const intervalId = setInterval(() => {
+            setTime(new Date());
+        }, 1000);
+
+        return () => clearInterval(intervalId);
     }, 
     []);
 
