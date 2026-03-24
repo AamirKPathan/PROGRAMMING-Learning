@@ -20,7 +20,7 @@ function MyComponent() {
     const [count, setCount] = useState(0);
 
     useEffect(() => {
-        document.title = `Count: ${count}`;
+        document.title = `Count: ${count} ${color}`;
     }, [count]); // Do the document title change only when count changes
     const [color, setColor] = useState("green");
 
