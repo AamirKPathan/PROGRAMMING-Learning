@@ -6,10 +6,12 @@ body{
     background-attachment: fixed;
 }
 
+.clock
+
 .clock {
     color: white;
     font-size: 6rem;
     font-weight: bold;
     font-family: monospace;
-    text-shadow: 3px 3px 5px hsl(0);
+    text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.75);
 }
