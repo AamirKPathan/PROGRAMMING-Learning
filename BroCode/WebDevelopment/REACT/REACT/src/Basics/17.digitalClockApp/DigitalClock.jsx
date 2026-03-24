@@ -15,8 +15,8 @@ function DigitalClock() {
 
     function formatTime(){
         let hours = time.getHours();
-        let minutes = time.getMinutes();
-        let seconds = time.getSeconds();
+        const minutes = time.getMinutes();
+        const seconds = time.getSeconds();
         
     }
 
