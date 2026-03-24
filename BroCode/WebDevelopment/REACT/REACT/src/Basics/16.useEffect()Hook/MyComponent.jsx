@@ -36,7 +36,7 @@ function MyComponent() {
     }
 
     return(<>
-        <h1 style={{}}>Count: {count}</h1>
+        <h1 style={{color: color}}>Count: {count}</h1>
         <button onClick={addCount}>Add</button>
         <button onClick={subtractCount}>Subtract</button>
         <br/>
