@@ -23,6 +23,10 @@ function DigitalClock() {
         return `${padZero(hours)}:${padZero(minutes)}:${padZero(seconds)} ${ampm}`;
     }
 
+    function padZero(number){
+        
+    }
+
     return (
         <div className="clock-container">
             <div className="clock">
