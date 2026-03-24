@@ -31,13 +31,16 @@ function MyComponent() {
     function subtractCount(){
         setCount(c => c - 1);
     }
+    function changeColor(){
+        setColor(c => c === "green" ? "red" : "green")
+    }
 
     return(<>
-        <h1>Count: {count}</h1>
+        <h1 style={{}}>Count: {count}</h1>
         <button onClick={addCount}>Add</button>
         <button onClick={subtractCount}>Subtract</button>
         <br/>
-        <button onClick={changeColour}>Change Color</button>
+        <button onClick={changeColor}>Change Color</button>
     </>)
 }
 
