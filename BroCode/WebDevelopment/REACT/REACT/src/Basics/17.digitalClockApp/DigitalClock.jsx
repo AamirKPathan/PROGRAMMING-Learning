@@ -14,13 +14,16 @@ function DigitalClock() {
     []);
 
     function formatTime(){
-        
+        const hours = time.getHours().toString().padStart(2, "0");
+        const minutes = time.getMinutes().toString().padStart(2, "0");
+        const seconds = time.getSeconds().toString().padStart(2, "0");
+        return `${hours}:${minutes}:${seconds}`;
     }
 
     return (
         <div className="clock-container">
             <div className="clock">
-                <span>00:00:00</span>
+                <span>{formatTime()}</span>
             </div>
         </div>
     );
