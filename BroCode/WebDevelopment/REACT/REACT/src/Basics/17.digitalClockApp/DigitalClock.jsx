@@ -17,7 +17,11 @@ function DigitalClock() {
         let hours = time.getHours();
         const minutes = time.getMinutes();
         const seconds = time.getSeconds();
-        
+        const ampm = hours >= 12 ? 'PM' : 'AM';
+
+        hours = hours % 12;
+        hours = hours ? hours : 12;
+        return `${hours}:${minutes}:${seconds} ${ampm}`;
     }
 
     return (
