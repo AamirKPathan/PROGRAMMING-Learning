@@ -19,9 +19,8 @@ function DigitalClock() {
         const seconds = time.getSeconds();
         const ampm = hours >= 12 ? 'PM' : 'AM';
 
-        hours = hours % 12;
-        hours = hours ? hours : 12;
-        return `${hours}:${minutes}:${seconds} ${ampm}`;
+        hours = hours % 12 || 12; // Convert to 12-hour format and handle midnight (0 hours)
+        return `${hours}:${minutes}:${seconds} 
     }
 
     return (
