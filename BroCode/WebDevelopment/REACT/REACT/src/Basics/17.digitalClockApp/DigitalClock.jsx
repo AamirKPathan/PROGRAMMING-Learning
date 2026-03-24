@@ -4,7 +4,10 @@ function DigitalClock() {
 
     const [time, setTime] = useState(new Date());
 
-    useEffect();
+    useEffect(() => {
+
+    }, 
+    []);
 
     return (
         <div className="clock-container">
