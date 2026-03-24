@@ -31,6 +31,7 @@ function MyComponent() {
     return(<>
         <h1>Count: {count}</h1>
         <button onClick={addCount}>Add</button>
+        <button onClick={() => setCount(c => c - 1)}>Subtract</button>
     </>)
 }
 
