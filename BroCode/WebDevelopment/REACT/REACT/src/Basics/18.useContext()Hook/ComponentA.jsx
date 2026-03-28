@@ -1,6 +1,6 @@
 import React, {useState, createContext} from "react";
 import ComponentB from "./ComponentB";
-export const 
+export const UserContext = createContext();
 function ComponentA(){
 
     const [user, setUser] = useState("AamirKPathan")
