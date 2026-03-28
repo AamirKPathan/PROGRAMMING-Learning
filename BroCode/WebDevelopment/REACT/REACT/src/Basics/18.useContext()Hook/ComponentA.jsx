@@ -1,4 +1,4 @@
-import Compo
+import ComponentB from "./ComponentB";
 function ComponentA(){
 
     return(
