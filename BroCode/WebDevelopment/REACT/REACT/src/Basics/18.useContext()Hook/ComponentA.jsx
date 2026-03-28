@@ -7,6 +7,7 @@ function ComponentA(){
     return(
         <div className="box">
             <h1>Component A</h1>
+            <h2></h2>
             <ComponentB />
         </div>
     )
