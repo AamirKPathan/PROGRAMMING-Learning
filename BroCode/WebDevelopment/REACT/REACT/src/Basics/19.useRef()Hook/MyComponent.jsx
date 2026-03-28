@@ -1,4 +1,4 @@
-import React, {useState, useContext} from "react";
+import React, {useState, useContext, useR} from "react";
 import {UserContext} from "./ComponentA";
 function ComponentD(){
 
@@ -6,9 +6,8 @@ function ComponentD(){
 
     return(
         <div className="box">
-            <h1>Component D</h1>
-            <h2>{`Bye, ${user}!`}</h2>
+
         </div>
     )
 }
-export default MyCom;
+export default MyComponent
