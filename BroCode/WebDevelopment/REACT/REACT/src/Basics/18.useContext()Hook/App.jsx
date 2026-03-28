@@ -3,7 +3,7 @@ import "./index.css";
 
 function App() {
   return (
-    ComponentA
+    <ComponentA />
   );
 }
 
