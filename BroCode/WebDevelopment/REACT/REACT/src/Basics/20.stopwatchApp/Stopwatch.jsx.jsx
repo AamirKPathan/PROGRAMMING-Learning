@@ -1,20 +1,10 @@
 import React, {useState, useContext, useRef, useEffect} from "react";
 function Stopwatch(){
 
-    const ref = useRef(0);
-
-    useEffect(() => {
-        console.log("Component rendered");
-    })
-
-    function handleClick(){
-        ref.current = ref.current + 1;
-        console.log(ref.current);
-    }
     return(
-        <button onClick={handleClick}>
-            Click Me!
-        </button>
+        <div className="stopwatch">
+            <h1>Stopwatch</h1>
+        </div>
     )
 }
 export default Stopwatch;
