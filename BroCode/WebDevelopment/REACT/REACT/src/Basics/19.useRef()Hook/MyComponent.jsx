@@ -1,5 +1,4 @@
-import React, {useState, useContext, useR} from "react";
-import {UserContext} from "./ComponentA";
+import React, {useState, useContext, useRef} from "react";
 function ComponentD(){
 
     const user = useContext(UserContext);
@@ -10,4 +9,4 @@ function ComponentD(){
         </div>
     )
 }
-export default MyComponent
+export default MyComponent;
