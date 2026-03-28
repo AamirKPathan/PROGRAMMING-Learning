@@ -1,7 +1,9 @@
 import React, {useState, useContext, useRef} from "react";
 function MyComponent(){
 
-    useEffect(())
+    useEffect(() => {
+        console.log("Component rendered");
+    },)
 
     let [number, setNumber] = useState(0);
     function handleClick(){
