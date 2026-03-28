@@ -1,9 +1,11 @@
 import React, {useState, useContext, useRef} from "react";
 function MyComponent(){
 
+    co
+
     useEffect(() => {
         console.log("Component rendered");
-    },)
+    })
 
     let [number, setNumber] = useState(0);
     function handleClick(){
@@ -15,4 +17,4 @@ function MyComponent(){
         </button>
     )
 }
-export default MyComponent;
+export default MyComponent
