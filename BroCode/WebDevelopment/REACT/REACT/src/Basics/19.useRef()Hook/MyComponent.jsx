@@ -1,7 +1,7 @@
 import React, {useState, useContext, useRef} from "react";
 function MyComponent(){
 
-    co
+    const ref = useRef();
 
     useEffect(() => {
         console.log("Component rendered");
@@ -17,4 +17,4 @@ function MyComponent(){
         </button>
     )
 }
-export default MyComponent
+export default MyComponent;
