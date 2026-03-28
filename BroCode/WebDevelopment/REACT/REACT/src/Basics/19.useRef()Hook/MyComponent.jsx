@@ -7,9 +7,9 @@ function MyComponent(){
         console.log("Component rendered");
     })
 
-    let [number, setNumber] = useState(0);
     function handleClick(){
-        ref.current ++;
+        ref.current = ref.current + 1;
+
     }
     return(
         <button onClick={handleClick}>
