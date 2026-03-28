@@ -11,4 +11,4 @@ function ComponentD(){
         </div>
     )
 }
-export default ComponentD;
+export default MyCom;
