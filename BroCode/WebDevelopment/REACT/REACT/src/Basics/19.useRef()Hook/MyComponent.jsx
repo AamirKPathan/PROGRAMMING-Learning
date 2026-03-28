@@ -1,5 +1,5 @@
 import React, {useState, useContext, useRef} from "react";
-function ComponentD(){
+function MyComponent(){
 
     let [number, setNumber] = useState(0);
     function handleClick(){
