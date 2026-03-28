@@ -1,4 +1,4 @@
-impor
+import React, { useState } from "react";
 import ComponentB from "./ComponentB";
 function ComponentA(){
 
