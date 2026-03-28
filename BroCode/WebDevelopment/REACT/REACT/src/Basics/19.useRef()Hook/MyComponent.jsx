@@ -1,6 +1,8 @@
 import React, {useState, useContext, useRef} from "react";
 function MyComponent(){
 
+    useEffect(())
+
     let [number, setNumber] = useState(0);
     function handleClick(){
         setNumber(n => n + 1)
