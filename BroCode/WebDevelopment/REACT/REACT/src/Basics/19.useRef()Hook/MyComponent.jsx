@@ -1,12 +1,9 @@
 import React, {useState, useContext, useRef} from "react";
 function ComponentD(){
 
-    const user = useContext(UserContext);
-
+    let [number, setNumber] = useState(0);
     return(
-        <div className="box">
-
-        </div>
+        <
     )
 }
 export default MyComponent;
