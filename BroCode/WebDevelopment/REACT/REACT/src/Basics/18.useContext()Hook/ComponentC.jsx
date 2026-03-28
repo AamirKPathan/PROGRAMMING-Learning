@@ -1,10 +1,10 @@
 
-function ComponentA(){
+function ComponentC(){
 
     return(
         <div className="box">
-            <h1>Component A</h1>
+            <h1>Component C</h1>
         </div>
     )
 }
-export default ComponentA;
+export default ComponentC;
