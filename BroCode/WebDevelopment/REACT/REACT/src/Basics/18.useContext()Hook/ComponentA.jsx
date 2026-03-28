@@ -1,2 +1,6 @@
 
-function Component
+function ComponentA(){
+
+    
+}
+export default ComponentA;
