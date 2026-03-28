@@ -1,9 +1,9 @@
 import "./index.css";
-import MyComponent from "./Stopwatch.jsx";
+import Stopwatch from "./Stopwatch.jsx";
 
 function App() {
   return (
-    <Stopw />
+    <Stopwatch />
   );
 }
 
