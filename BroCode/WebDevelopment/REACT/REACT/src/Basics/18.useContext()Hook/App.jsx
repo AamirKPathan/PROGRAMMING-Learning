@@ -1,4 +1,4 @@
-import DigitalClock from "./DigitalClock";
+import ComponentA from "./ComponentA";
 import "./index.css";
 
 function App() {
