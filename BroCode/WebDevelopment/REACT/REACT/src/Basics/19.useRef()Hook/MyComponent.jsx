@@ -9,7 +9,6 @@ function MyComponent(){
 
     function handleClick(){
         ref.current = ref.current + 1;
-
     }
     return(
         <button onClick={handleClick}>
