@@ -1,9 +1,9 @@
-import ComponentA from "./ComponentA";
 import "./index.css";
+import MyComponent from "./MyComponent";
 
 function App() {
   return (
-    <ComponentA />
+    <MyComponent />
   );
 }
 
