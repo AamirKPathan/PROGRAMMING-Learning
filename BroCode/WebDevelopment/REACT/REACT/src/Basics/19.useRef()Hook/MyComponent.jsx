@@ -9,7 +9,7 @@ function MyComponent(){
 
     let [number, setNumber] = useState(0);
     function handleClick(){
-        
+        ref.current = ref.current 
     }
     return(
         <button onClick={handleClick}>
