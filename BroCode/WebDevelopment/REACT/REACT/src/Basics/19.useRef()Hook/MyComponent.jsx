@@ -1,7 +1,7 @@
 import React, {useState, useContext, useRef} from "react";
 function MyComponent(){
 
-    const ref = useRef();
+    const ref = useRef(0);
 
     useEffect(() => {
         console.log("Component rendered");
@@ -9,7 +9,7 @@ function MyComponent(){
 
     let [number, setNumber] = useState(0);
     function handleClick(){
-        setNumber(n => n + 1)
+        
     }
     return(
         <button onClick={handleClick}>
