@@ -1,5 +1,5 @@
 import React, {useState, useContext, useRef, useEffect} from "react";
-function MyComponent(){
+function Stopwatch(){
 
     const ref = useRef(0);
 
