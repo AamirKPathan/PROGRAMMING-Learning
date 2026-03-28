@@ -1,4 +1,4 @@
-
+import Compo
 function ComponentA(){
 
     return(
