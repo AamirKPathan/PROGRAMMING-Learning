@@ -1,5 +1,6 @@
-import React, {useState, cr} from "react";
+import React, {useState, createContext} from "react";
 import ComponentB from "./ComponentB";
+export const 
 function ComponentA(){
 
     const [user, setUser] = useState("AamirKPathan")
