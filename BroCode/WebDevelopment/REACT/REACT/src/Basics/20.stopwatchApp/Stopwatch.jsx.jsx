@@ -17,4 +17,4 @@ function MyComponent(){
         </button>
     )
 }
-export default MyComponent;
+export default Stopwatch;

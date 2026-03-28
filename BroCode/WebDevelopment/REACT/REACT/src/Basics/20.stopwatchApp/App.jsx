@@ -1,5 +1,5 @@
 import "./index.css";
-import MyComponent from "./MyComponent";
+import MyComponent from "./Stopwatch.jsx";
 
 function App() {
   return (
