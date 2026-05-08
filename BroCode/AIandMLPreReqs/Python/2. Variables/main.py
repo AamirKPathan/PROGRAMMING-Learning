@@ -8,3 +8,4 @@ email = "programmingpathanaa@gmail.com"
 age = 16
 # 3. Float - a number, positive or negative, with decimals
 # 4. Boolean - a value that is either True or False
+isStudent = True
