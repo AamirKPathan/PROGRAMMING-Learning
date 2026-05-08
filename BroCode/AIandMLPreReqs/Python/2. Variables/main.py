@@ -7,5 +7,11 @@ email = "programmingpathanaa@gmail.com"
 # 2. Integer - a whole number, positive or negative, without decimals
 age = 16
 # 3. Float - a number, positive or negative, with decimals
+weightt = 102.5
 # 4. Boolean - a value that is either True or False
 isStudent = True
+# Print the variables
+print(fullName)
+print(email)
+print(age)
+print(isStudent)
