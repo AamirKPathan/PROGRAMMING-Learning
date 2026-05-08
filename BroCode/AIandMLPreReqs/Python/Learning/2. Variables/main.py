@@ -17,4 +17,4 @@ print(f" Email: {email}")
 print(f" Age: {age}")
 print(f" Weight: {weight}")
 print(f" Is Student: {isStudent}")
-pri
+print(f" GPA: {gpa}")
