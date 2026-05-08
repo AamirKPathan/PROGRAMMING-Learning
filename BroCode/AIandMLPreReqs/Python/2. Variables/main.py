@@ -5,9 +5,8 @@
 firstName = "Aamir Khan"
 lastName = "Pathan"
 fullName = firstName + " " + lastName
-print(fullName)
+print(
 # 2. Integer - a whole number, positive or negative, without decimals
-birthYear = 2009
-currentYear = 2026
+age = 16
 # 3. Float - a number, positive or negative, with decimals
 # 4. Boolean - a value that is either True or False
