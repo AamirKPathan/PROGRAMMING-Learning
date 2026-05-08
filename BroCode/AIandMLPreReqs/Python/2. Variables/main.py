@@ -2,8 +2,8 @@
 
 # 4 Types of variables:
 # 1. String - a sequence of characters, enclosed in quotes
-name = "Aamir "
-
+firstName = "Aamir Khan"
+lastName
 # 2. Integer - a whole number, positive or negative, without decimals
 # 3. Float - a number, positive or negative, with decimals
 # 4. Boolean - a value that is either True or False
