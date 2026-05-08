@@ -15,6 +15,6 @@ isStudent = True
 print(f" fullName: {fullName}")
 print(f" Email: {email}")
 print(f" Age: {age}")
-print(f" Weight: {weight}")
+print(f" Weight: {weight} kg")
 print(f" Is Student: {isStudent}")
 print(f" GPA: {gpa}")
