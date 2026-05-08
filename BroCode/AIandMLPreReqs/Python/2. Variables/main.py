@@ -1,1 +1,3 @@
 # Variable = a container for a value. It can be changed after it has been created.
+
+# 4 Types
