@@ -11,8 +11,8 @@ weight = 102.5
 # 4. Boolean - a value that is either True or False
 isStudent = True
 # Print the variables
-print(fullName)
-print(email)
-print(age)
-print(weight)
-print(isStudent)
+print(f" fullName: {fullName}")
+print(f" Email: {email}")
+print(f" Age: {age}")
+print(f" Weight: {weight}")
+print(f" Is Student: {isStudent}")
