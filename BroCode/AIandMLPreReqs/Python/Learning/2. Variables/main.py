@@ -8,6 +8,7 @@ email = "programmingpathanaa@gmail.com"
 age = 16
 # 3. Float - a number, positive or negative, with decimals
 weight = 102.5
+gpa = 3.7
 # 4. Boolean - a value that is either True or False
 isStudent = True
 # Print the variables
@@ -16,3 +17,4 @@ print(f" Email: {email}")
 print(f" Age: {age}")
 print(f" Weight: {weight}")
 print(f" Is Student: {isStudent}")
+pri
