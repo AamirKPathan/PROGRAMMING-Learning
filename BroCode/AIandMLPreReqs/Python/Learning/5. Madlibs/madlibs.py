@@ -1,1 +1,5 @@
-# Madlib
+# Madlibs
+
+# Template
+
+# User Input
