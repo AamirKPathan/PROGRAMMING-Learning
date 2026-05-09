@@ -1,6 +1,6 @@
 # Madlibs
 # Welcome Message
-print("Welcome to the Madlibs Game!")
+print("Welcome to the Madlibs Game!🎲🔠")
 
 # User Input
 place1 = input("Enter a place: ")
