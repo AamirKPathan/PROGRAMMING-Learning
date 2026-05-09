@@ -3,3 +3,8 @@ name = "Aamir Khan Pathan"
 age = 16
 gpa = 3.7
 isStudent = True
+
+print(type(name))
+print(type(age))
+print(type(gpa))
+print(type(isStudent))
