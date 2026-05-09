@@ -12,3 +12,6 @@ print(type(isStudent))
 gpa = int(gpa)
 print(gpa)
 print(type(gpa))
+
+gpa +=  0.3
+print(gpa)
